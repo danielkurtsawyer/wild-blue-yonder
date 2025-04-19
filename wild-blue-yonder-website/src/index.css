@@ -1,17 +1,39 @@
 @font-face {
   font-family: 'heading-text';
-  src: url(../public/fonts/ChauPhilomeneOne-Regular.ttf) format('truetype');
+  src: url(/fonts/ChauPhilomeneOne-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'body-text';
-  src: url(../public/fonts/SourGummy-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(/fonts/SourGummy-VariableFont_wdth\,wght.ttf) format('truetype');
 }
 
 *{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+:root {
+  --light-blue: #CAF4FA;
+  --gradient-top: #B1E6F4;
+  --gradient-bottom: #5AC4F2;
+  --dark-blue: #3066BE;
+  --darker-blue: #17285F;
+  --darkest-blue: #070124;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000000;
+  background: linear-gradient(180deg, var(--gradient-top) 0%, var(--gradient-bottom) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root{
@@ -33,17 +55,4 @@
   padding: 28px 240px;
 }
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
