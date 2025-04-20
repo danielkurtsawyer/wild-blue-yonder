@@ -1,0 +1,20 @@
+footer {
+    color: var(--off-white);
+    font-family: 'body-text', sans-serif;
+}
+
+.footer-wrapper {
+    width: max-content;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper span{
+    width: max-content;
+}

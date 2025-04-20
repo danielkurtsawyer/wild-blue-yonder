@@ -104,6 +104,7 @@
 h1, h2, h3, h4 {
   font-family: 'heading-text', Verdana, sans-serif;
   height: max-content;
+  letter-spacing: -0.5px;
 }
 
 h1{
