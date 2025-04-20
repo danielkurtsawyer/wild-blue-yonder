@@ -1,0 +1,23 @@
+header {
+    z-index: 2;
+    background: var(--light-blue);
+    box-shadow: var(--shadow-gradient-top-elevation-low);
+    padding: 0px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo-wrapper {
+    max-height: 85px;
+    max-width: max-content;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    height: 85px;
+}
