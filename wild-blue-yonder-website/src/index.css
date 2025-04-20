@@ -89,27 +89,58 @@
 }
 
 .heading-text {
-  font-family: 'heading-text';
+  font-family: 'heading-text', Verdana, sans-serif;
   font-size: 36px;
   margin: auto;
   width: max-content;
 }
 
 .body-text{
-  font-family: 'body-text';
+  font-family: 'body-text', Roboto, sans-serif;
   font-size: 16px;
   padding: 28px 240px;
 }
 
-header{
-  z-index: 2;
-  background: var(--light-blue);
-  box-shadow: var(--shadow-gradient-top-elevation-low);
+h1, h2, h3, h4 {
+  font-family: 'heading-text', Verdana, sans-serif;
 }
-main{
+
+h1{
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.large-text {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.smallest-text {
+  font-size: 12px;
+}
+
+main {
   background: linear-gradient(180deg, var(--gradient-top) 0%, var(--gradient-bottom) 100%);
 }
-footer{
+footer {
   background: linear-gradient(180deg, #17285F 0%, #070124 100%);
 }
 
