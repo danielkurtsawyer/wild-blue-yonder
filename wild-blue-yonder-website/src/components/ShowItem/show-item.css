@@ -1,0 +1,26 @@
+.show-item-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  grid-template-columns: 300px 250px 200px 100px;
+  gap: 16px;
+  /* border-top: 1px solid black; */
+  border-bottom: 2px solid black;
+  padding: 12px;
+}
+
+.show-item-container p {
+  font-family: "body-text";
+}
+
+.date-and-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subtitle {
+  font-family: "heading-text-italic";
+  font-size: 20px;
+}

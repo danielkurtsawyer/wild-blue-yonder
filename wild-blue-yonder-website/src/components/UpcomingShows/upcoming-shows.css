@@ -1,0 +1,12 @@
+.upcoming-shows-header {
+  text-align: center;
+  padding: 8px;
+}
+
+.shows-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12px; */
+}
