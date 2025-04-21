@@ -1,36 +1,59 @@
-import spotifyLogo from '../../assets/icons/spotify-icon.svg';
-import appleMusicLogo from '../../assets/icons/musical-notes.svg';
-import instagramLogo from '../../assets/icons/logo-instagram.svg';
-import youtubeLogo from '../../assets/icons/logo-youtube.svg';
-import facebookLogo from '../../assets/icons/logo-facebook.svg';
-import tiktokLogo from '../../assets/icons/logo-tiktok.svg';
+import spotifyLogo from "../../assets/icons/spotify-icon.svg";
+import appleMusicLogo from "../../assets/icons/musical-notes.svg";
+import instagramLogo from "../../assets/icons/logo-instagram.svg";
+import youtubeLogo from "../../assets/icons/logo-youtube.svg";
+import facebookLogo from "../../assets/icons/logo-facebook.svg";
+import tiktokLogo from "../../assets/icons/logo-tiktok.svg";
 
-import './social-media-links.css';
+import "./social-media-links.css";
 
-function SocialMediaLinks(){
-    return(
-        <div className="social-media-links-wrapper">
-            <a href="https://open.spotify.com/artist/7CneY53wJ8pyuYpU0uk3vE?si=NFtAy3c_TgCLIgtTSds-Og" target='_blank' rel='noopener noreferrer'>
-                <img src={spotifyLogo} alt="Spotify" />
-            </a>
-            <a href="https://music.apple.com/us/artist/wild-blue-yonder/1483149496" target='_blank' rel='noopener noreferrer'>
-                <img src={appleMusicLogo} alt="Apple Music" />
-            </a>
-            <a href="https://instagram.com/wildblueyonderjams" target='_blank' rel='noopener noreferrer'>
-                <img src={instagramLogo} alt="Instagram" />
-            </a>
-            <a href="https://www.youtube.com/@wildblueyonder3557" target='_blank' rel='noopener noreferrer'>
-                <img src={youtubeLogo} alt="Youtube" />
-            </a>
-            <a href="https://tiktok.com/@wildblueyonderjams" target='_blank' rel='noopener noreferrer'>
-                <img src={tiktokLogo} alt="TikTok" />
-            </a>
-            <a href="https://www.facebook.com/WildBlueYonderJams/" target='_blank' rel='noopener noreferrer'>
-                <img src={facebookLogo} alt="FaceBook" />
-            </a>
-
-        </div>
-    )
+function SocialMediaLinks() {
+  return (
+    <div className="social-media-links-wrapper">
+      <a
+        href="https://open.spotify.com/artist/7CneY53wJ8pyuYpU0uk3vE?si=NFtAy3c_TgCLIgtTSds-Og"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={spotifyLogo} alt="Spotify" />
+      </a>
+      <a
+        href="https://music.apple.com/us/artist/wild-blue-yonder/1483149496"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={appleMusicLogo} alt="Apple Music" />
+      </a>
+      <a
+        href="https://instagram.com/wildblueyonderjams"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={instagramLogo} alt="Instagram" />
+      </a>
+      <a
+        href="https://www.youtube.com/@wildblueyonder3557"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={youtubeLogo} alt="Youtube" />
+      </a>
+      <a
+        href="https://tiktok.com/@wildblueyonderjams"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={tiktokLogo} alt="TikTok" />
+      </a>
+      <a
+        href="https://www.facebook.com/WildBlueYonderJams/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={facebookLogo} alt="FaceBook" />
+      </a>
+    </div>
+  );
 }
 
 export default SocialMediaLinks;

@@ -1,13 +1,15 @@
 .social-media-links-wrapper {
-    width: max-content;
-    height: max-content;
-    display: flex;
-    gap: 40px;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  gap: 40px;
 }
 
-.social-media-links-wrapper a, .social-media-links-wrapper img {
-    height: 24px;
+.social-media-links-wrapper a,
+.social-media-links-wrapper img {
+  height: 24px;
 }
 .social-media-links-wrapper img {
-    filter: invert(100%) sepia(46%) saturate(501%) hue-rotate(295deg) brightness(104%) contrast(96%);
+  filter: invert(100%) sepia(46%) saturate(501%) hue-rotate(295deg)
+    brightness(104%) contrast(96%);
 }

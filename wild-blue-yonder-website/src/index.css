@@ -9,21 +9,21 @@
 }
 
 @font-face {
-  font-family: 'heading-text-italic';
-  src: url(./assets/fonts/ChauPhilomeneOne-Italic.ttf) format('truetype');
+  font-family: "heading-text-italic";
+  src: url(./assets/fonts/ChauPhilomeneOne-Italic.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'body-text-italic';
-  src: url(./assets/fonts/SourGummy-Italic-VariableFont.ttf) format('truetype');
+  font-family: "body-text-italic";
+  src: url(./assets/fonts/SourGummy-Italic-VariableFont.ttf) format("truetype");
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -207,8 +207,6 @@ main {
     var(--gradient-bottom) 100%
   );
 }
-
-
 
 footer {
   background: linear-gradient(180deg, #17285f 0%, #070124 100%);

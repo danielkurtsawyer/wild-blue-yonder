@@ -1,13 +1,13 @@
-.nav-menu{
-    max-width: max-content;
+.nav-menu {
+  max-width: max-content;
 
-    font-family: 'body-text';
-    font-size: 20px;
-    display: flex;
-    gap: 20px;
+  font-family: "body-text";
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
 }
 
-.nav-menu a{
-    color: black;
-    font-weight: bold;
+.nav-menu a {
+  color: black;
+  font-weight: bold;
 }
