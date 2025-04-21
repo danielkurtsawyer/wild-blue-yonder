@@ -9,6 +9,7 @@ import LinkPrimary from "./components/Link/LinkPrimary.jsx";
 import LinkSecondary from "./components/Link/LinkSecondary.jsx";
 import LinkTertiary from "./components/Link/LinkTertiary.jsx";
 import UpcomingShows from "./components/UpcomingShows/UpcomingShows.jsx";
+import FeaturedRelease from "./components/FeaturedRelease/FeaturedRelease.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Header />
       </header>
       <main>
+        <FeaturedRelease />
         <UpcomingShows />
       </main>
       <footer>
