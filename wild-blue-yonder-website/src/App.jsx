@@ -13,7 +13,9 @@ function App() {
         <Header/>
       </header>
       <main>
-        
+        <ButtonPrimary text='Stream Bridges' className='shadow-gradient-bottom-elevation-medium'/>
+        <ButtonSecondary text='Watch the Music Video' className='shadow-gradient-bottom-elevation-medium'/>
+        <ButtonTertiary text='Watch the Live Version' className='shadow-gradient-bottom-elevation-medium'/>
       </main>
       <footer>
         <Footer/>
