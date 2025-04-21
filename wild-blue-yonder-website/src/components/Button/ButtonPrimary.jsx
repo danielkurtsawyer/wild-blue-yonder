@@ -5,6 +5,10 @@ function ButtonPrimary({href, text, className}){
         return (
             <a href={href} target='_blank' rel='noopener noreferrer' className={`button-primary ${className}`}>{text}</a>
         )
+    } else {
+        return (
+            <button className={`button-primary ${className}`}>{text}</button>
+        )
     }
 }
 
