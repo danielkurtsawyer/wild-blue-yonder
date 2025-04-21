@@ -8,6 +8,16 @@
   src: url(./assets/fonts/SourGummy-VariableFont.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'heading-text-italic';
+  src: url(./assets/fonts/ChauPhilomeneOne-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'body-text-italic';
+  src: url(./assets/fonts/SourGummy-Italic-VariableFont.ttf) format('truetype');
+}
+
 *{
   box-sizing: border-box;
   margin: 0px;
