@@ -1,9 +1,9 @@
-import spotifyLogo from '../../../public/icons/spotify-icon.svg';
-import appleMusicLogo from '../../../public/icons/musical-notes.svg';
-import instagramLogo from '../../../public/icons/logo-instagram.svg';
-import youtubeLogo from '../../../public/icons/logo-youtube.svg';
-import facebookLogo from '../../../public/icons/logo-facebook.svg';
-import tiktokLogo from '../../../public/icons/logo-tiktok.svg';
+import spotifyLogo from '../../assets/icons/spotify-icon.svg';
+import appleMusicLogo from '../../assets/icons/musical-notes.svg';
+import instagramLogo from '../../assets/icons/logo-instagram.svg';
+import youtubeLogo from '../../assets/icons/logo-youtube.svg';
+import facebookLogo from '../../assets/icons/logo-facebook.svg';
+import tiktokLogo from '../../assets/icons/logo-tiktok.svg';
 
 import './social-media-links.css';
 

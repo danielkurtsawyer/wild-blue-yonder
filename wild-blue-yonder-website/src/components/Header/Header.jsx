@@ -1,5 +1,5 @@
 import './header.css';
-import wildBlueYonderLogo from '../../../public/images/Graphics/logo.png';
+import wildBlueYonderLogo from '../../assets/images/Graphics/logo.png';
 import NavMenu from '../Nav Menu/NavMenu.jsx';
 
 function Header(){

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'heading-text';
-  src: url(/fonts/ChauPhilomeneOne-Regular.ttf) format('truetype');
+  src: url(./assets/fonts/ChauPhilomeneOne-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'body-text';
-  src: url(/fonts/SourGummy-VariableFont_wdth\,wght.ttf) format('truetype');
+  src: url(./assets/fonts/SourGummy-VariableFont.ttf) format('truetype');
 }
 
 *{
