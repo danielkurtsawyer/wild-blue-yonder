@@ -1,9 +1,11 @@
 import './button.css';
 
-function ButtonPrimary({text, className}){
-    return (
-        <button className={`button-primary ${className}`}>{text}</button>
-    )
+function ButtonPrimary({href, text, className}){
+    if(href){
+        return (
+            <a href={href} target='_blank' rel='noopener noreferrer' className={`button-primary ${className}`}>{text}</a>
+        )
+    }
 }
 
 export default ButtonPrimary;

@@ -13,6 +13,9 @@
   margin: 0px;
   padding: 0px;
 }
+a{
+  text-decoration: none;
+}
 
 :root {
   /* Color Palette*/
@@ -102,6 +105,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Style classes */
+
 .shadow-gradient-top-elevation-low {
   box-shadow: var(--shadow-gradient-top-elevation-low);
 }
@@ -125,7 +130,6 @@
 .shadow-gradient-bottom-elevation-high {
   box-shadow: var(--shadow-gradient-bottom-elevation-high);
 }
-
 
 #root{
   min-height: 100vh;
@@ -186,7 +190,14 @@ p {
 
 main {
   background: linear-gradient(180deg, var(--gradient-top) 0%, var(--gradient-bottom) 100%);
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
 footer {
   background: linear-gradient(180deg, #17285F 0%, #070124 100%);
 }

@@ -1,4 +1,4 @@
-button {
+.button-primary, .button-secondary, .button-tertiary {
     font-family: 'body-text';
     font-size: 16px;
     border: 1px solid black;
@@ -19,5 +19,6 @@ button {
 }
 
 .button-tertiary {
+    background-color: var(--gray);
     color: var(--off-white);
 }
