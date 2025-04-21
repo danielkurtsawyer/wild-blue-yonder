@@ -1,7 +1,6 @@
 header {
     z-index: 2;
     background: var(--light-blue);
-    box-shadow: var(--shadow-gradient-top-elevation-low);
     padding: 0px 40px;
 
     display: flex;
