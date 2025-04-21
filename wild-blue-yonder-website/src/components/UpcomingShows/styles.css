@@ -10,20 +10,3 @@
   justify-content: center;
   /* gap: 12px; */
 }
-
-.line-break {
-  color: black;
-  width: 80%;
-}
-
-.first-item {
-  border-top: 1px solid black;
-}
-
-.active {
-  background-color: white;
-}
-
-.inactive {
-  background-color: black;
-}

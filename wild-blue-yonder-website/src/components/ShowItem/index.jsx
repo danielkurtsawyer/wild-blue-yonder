@@ -7,8 +7,6 @@ export default function ShowItem({
   venueLocation,
   borderTop,
 }) {
-  console.log("showDate (index):", showDate); // See if 0 shows up
-
   return (
     <div className="show-item-container" style={{ borderTop }}>
       <h4>{showDate ? showDate : "Show Date"}</h4>

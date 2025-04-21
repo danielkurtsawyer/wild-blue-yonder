@@ -13,11 +13,3 @@
 .show-item-container p {
   font-family: "body-text";
 }
-
-.active {
-  background-color: white;
-}
-
-.inactive {
-  background-color: black;
-}

@@ -7,13 +7,12 @@ export default function UpcomingShows() {
     <div className="shows-container">
       <h2 className="upcoming-shows-header">Upcoming Shows</h2>
       {shows.map((show, index) => {
-        console.log("Rendering index:", index);
         return (
           <ShowItem
             key={index}
             showDate={show.date}
             venueName={show.name}
-            venueLocation={index === 0 ? "hi" : "no"}
+            venueLocation={show.location}
             borderTop={index === 0 ? "2px solid black" : ""}
           />
         );
