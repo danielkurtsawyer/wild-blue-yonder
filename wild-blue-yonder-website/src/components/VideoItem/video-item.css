@@ -1,0 +1,13 @@
+.show-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.youtube-container {
+  width: 768px;
+  height: 432px;
+  border: none;
+  border-radius: 8px;
+}

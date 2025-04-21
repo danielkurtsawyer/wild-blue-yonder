@@ -8,6 +8,7 @@ import ButtonTertiary from "./components/Button/ButtonTertiary.jsx";
 import LinkPrimary from "./components/Link/LinkPrimary.jsx";
 import LinkSecondary from "./components/Link/LinkSecondary.jsx";
 import LinkTertiary from "./components/Link/LinkTertiary.jsx";
+import Videos from "./components/Videos/Videos.jsx";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           text="Tertiary"
           className="link-tertiary"
         />
+        <Videos />
       </main>
       <footer>
         <Footer />
