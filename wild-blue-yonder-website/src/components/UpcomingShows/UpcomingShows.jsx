@@ -1,5 +1,5 @@
-import "./styles.css";
-import ShowItem from "../ShowItem/index.jsx";
+import "./upcoming-shows.css";
+import ShowItem from "../ShowItem/ShowItem.jsx";
 import shows from "./shows.js";
 
 export default function UpcomingShows() {

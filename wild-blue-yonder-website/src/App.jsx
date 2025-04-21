@@ -5,8 +5,8 @@ import Footer from "./components/Footer/Footer.jsx";
 import ButtonPrimary from "./components/Button/ButtonPrimary.jsx";
 import ButtonSecondary from "./components/Button/ButtonSecondary.jsx";
 import ButtonTertiary from "./components/Button/ButtonTertiary.jsx";
-import UpcomingShows from "./components/UpcomingShows/index.jsx";
-import ShowItem from "./components/ShowItem/index.jsx";
+import UpcomingShows from "./components/UpcomingShows/UpcomingShows.jsx";
+import ShowItem from "./components/ShowItem/ShowItem.jsx";
 
 function App() {
   return (

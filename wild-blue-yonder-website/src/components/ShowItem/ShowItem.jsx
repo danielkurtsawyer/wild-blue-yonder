@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./show-item.css";
 import ButtonPrimary from "../Button/ButtonPrimary.jsx";
 
 export default function ShowItem({
