@@ -8,6 +8,7 @@ const shows = [
         date: "May 1, 2025",
         name: "Bottlerocket Music Hall",
         location: "Pittsburgh, PA",
+        title: "Supporting Consider the Source",
     },
     {
         date: "December 31, 2025",

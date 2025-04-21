@@ -6,10 +6,14 @@ export default function ShowItem({
   venueName,
   venueLocation,
   borderTop,
+  showTitle,
 }) {
   return (
     <div className="show-item-container" style={{ borderTop }}>
-      <h4>{showDate ? showDate : "Show Date"}</h4>
+      <div className="date-and-title">
+        <h4>{showDate ? showDate : "Show Date"}</h4>
+        {showTitle ? <h4 className="subtitle">{showTitle}</h4> : null}
+      </div>
       <p className="large-text">{venueName ? venueName : "Venue Name"}</p>
       <p className="large-text">
         {venueLocation ? venueLocation : "Venue Location"}
