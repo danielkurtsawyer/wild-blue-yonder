@@ -15,6 +15,7 @@ export default function UpcomingShows() {
             venueLocation={show.location}
             borderTop={index === 0 ? "2px solid black" : ""}
             showTitle={show.title ? show.title : null}
+            ticketLink={show.ticketLink}
           />
         );
       })}

@@ -7,6 +7,7 @@ export default function ShowItem({
   venueLocation,
   borderTop,
   showTitle,
+  ticketLink,
 }) {
   return (
     <div className="show-item-container" style={{ borderTop }}>
@@ -19,6 +20,7 @@ export default function ShowItem({
         {venueLocation ? venueLocation : "Venue Location"}
       </p>
       <ButtonPrimary
+        href={ticketLink}
         text="TICKETS"
         className="shadow-gradient-bottom-elevation-medium"
       />

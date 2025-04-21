@@ -16,7 +16,9 @@ function App() {
       <header className="shadow-gradient-top-elevation-low">
         <Header />
       </header>
-      <main></main>
+      <main>
+        <UpcomingShows />
+      </main>
       <footer>
         <Footer />
       </footer>
