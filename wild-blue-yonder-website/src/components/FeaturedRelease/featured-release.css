@@ -1,0 +1,38 @@
+.release-container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* .release-art {
+  width: 500px;
+  height: 500px;
+} */
+
+.release-art img {
+  width: 400px;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.release-info {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px;
+  gap: 20px;
+  align-items: center;
+}
+
+.release-info h1,
+p {
+  align-self: start;
+}
+
+.release-info p {
+  font-family: "body-text";
+}
+
+.release-button {
+  width: 200px;
+}
