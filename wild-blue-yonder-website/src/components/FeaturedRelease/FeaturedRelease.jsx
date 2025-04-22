@@ -8,7 +8,11 @@ export default function FeaturedRelease() {
   return (
     <div className="release-container">
       <div className="release-art">
-        <img src={BridgesArt} alt="" />
+        <img
+          src={BridgesArt}
+          alt=""
+          className="shadow-gradient-bottom-elevation-medium"
+        />
       </div>
       <div className="release-info">
         <h1>Bridges: Out Now!</h1>
