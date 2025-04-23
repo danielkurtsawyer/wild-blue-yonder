@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router";
+import Home from "./pages/Home.jsx";
+import Shows from "./pages/Shows.jsx";
 
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
@@ -14,19 +17,16 @@ import FeaturedRelease from "./components/FeaturedRelease/FeaturedRelease.jsx";
 
 function App() {
   return (
-    <>
-      <header className="shadow-gradient-top-elevation-low">
-        <Header />
-      </header>
+    <BrowserRouter>
+      <Header />
       <main>
-        <HeroImage />
-        <FeaturedRelease />
-        <UpcomingShows />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shows" element={<Shows />} />
+        </Routes>
       </main>
-      <footer>
-        <Footer />
-      </footer>
-    </>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

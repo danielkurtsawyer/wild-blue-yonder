@@ -4,7 +4,7 @@ import NavMenu from "../Nav Menu/NavMenu.jsx";
 
 function Header() {
   return (
-    <>
+    <header className="shadow-gradient-top-elevation-low">
       <div className="logo-wrapper">
         <img
           src={wildBlueYonderLogo}
@@ -14,7 +14,7 @@ function Header() {
         <h2>Wild Blue Yonder</h2>
       </div>
       <NavMenu />
-    </>
+    </header>
   );
 }
 
