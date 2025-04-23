@@ -5,6 +5,10 @@
   gap: 20px;
   align-items: center;
 }
+.release-item-container:hover {
+  cursor: pointer;
+}
+
 .release-cover-art {
   height: 350px;
   border-radius: 8px;
