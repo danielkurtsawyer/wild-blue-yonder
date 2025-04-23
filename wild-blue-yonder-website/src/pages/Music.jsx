@@ -1,12 +1,7 @@
-import ReleaseItem from "../components/ReleaseItem/ReleaseItem";
-import BridgesCoverArt from "../assets/images/Album Art/bridges cover.jpg";
+import ReleaseList from "../components/ReleaseList/ReleaseList";
 
 function Music() {
-  return (
-    <div className="music-container">
-      <ReleaseItem coverArt={BridgesCoverArt} releaseName="Bridges" />
-    </div>
-  );
+  return <ReleaseList />;
 }
 
 export default Music;
