@@ -158,6 +158,11 @@ a {
   padding: 28px 240px;
 }
 
+.page-header {
+  margin: auto;
+  width: max-content;
+}
+
 h1,
 h2,
 h3,

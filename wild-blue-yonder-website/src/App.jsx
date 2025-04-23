@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home.jsx";
 import Shows from "./pages/Shows.jsx";
 import Videos from "./pages/Videos.jsx";
-import Music from "./pages/Music.jsx";
+import Music from "./pages/Music/Music.jsx";
 
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
