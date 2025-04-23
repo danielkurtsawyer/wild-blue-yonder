@@ -5,7 +5,10 @@ export default function VideoItem({ title, link }) {
   return (
     <div className="video-item-container">
       <h4>{title ? title : "Video Title"}</h4>
-      <iframe className="youtube-container" src={link}></iframe>
+      <iframe
+        className="youtube-container shadow-gradient-bottom-elevation-medium"
+        src={link}
+      ></iframe>
     </div>
   );
 }
