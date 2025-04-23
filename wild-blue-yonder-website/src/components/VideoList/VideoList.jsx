@@ -2,7 +2,7 @@ import "./videos.css";
 import videos from "./videos.js";
 import VideoItem from "../VideoItem/VideoItem.jsx";
 
-export default function Videos() {
+export default function VideoList() {
   return (
     <div className="videos-container">
       <h2>Our Videos</h2>
