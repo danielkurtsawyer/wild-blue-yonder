@@ -1,0 +1,15 @@
+.release-item-container {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.release-cover-art {
+  height: 350px;
+  border-radius: 8px;
+}
+
+.release-name {
+  font-family: "body-text";
+}
