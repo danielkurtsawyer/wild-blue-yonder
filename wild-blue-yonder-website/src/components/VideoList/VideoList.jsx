@@ -5,7 +5,7 @@ import VideoItem from "../VideoItem/VideoItem.jsx";
 export default function VideoList() {
   return (
     <div className="videos-container">
-      <h2>Our Videos</h2>
+      <h1>Our Videos</h1>
       {videos.map((video, index) => {
         const videoId = video.link.split("youtu.be/")[1];
         const embedLink = `https://www.youtube.com/embed/${videoId}`;

@@ -4,7 +4,7 @@ import "./music.css";
 function Music() {
   return (
     <div className="music-container">
-      <h2 className="page-header">Our Music</h2>
+      <h1 className="page-header">Our Music</h1>
       <ReleaseList />
     </div>
   );
