@@ -3,6 +3,7 @@ import Home from "./pages/Home.jsx";
 import Shows from "./pages/Shows.jsx";
 import Videos from "./pages/Videos.jsx";
 import Music from "./pages/Music/Music.jsx";
+import About from "./pages/About/about.jsx";
 
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/shows" element={<Shows />} />
           <Route path="/music" element={<Music />} />
           <Route path="/videos" element={<Videos />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer />
