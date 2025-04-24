@@ -48,7 +48,7 @@ function About() {
             Interested in booking Wild Blue Yonder? Booking inquiries can be
             sent to: <br /> <br />
             <LinkPrimary
-              href="https://google.com"
+              href="mailto:booking@wildblueyondermusic.com"
               text="booking@wildblueyondermusic.com"
               // className="shadow-gradient-bottom-elevation-medium"
             />
