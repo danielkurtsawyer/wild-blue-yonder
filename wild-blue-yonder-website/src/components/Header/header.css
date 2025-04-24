@@ -24,5 +24,6 @@ header {
 .band-name {
   font-size: 36px;
   font-family: "heading-text", sans-serif;
+  letter-spacing: -0.5px;
   color: black;
 }

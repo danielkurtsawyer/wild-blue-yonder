@@ -1,4 +1,4 @@
-import "./videos.css";
+import "./video-list.css";
 import videos from "./videos.js";
 import VideoItem from "../VideoItem/VideoItem.jsx";
 
