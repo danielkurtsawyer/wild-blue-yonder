@@ -1,0 +1,40 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  margin: 28px 0px;
+}
+
+.content-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.pic-and-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.pic-and-paragraph p {
+  width: 550px;
+  text-align: left;
+  font-family: "body-text";
+}
+
+.pic-and-paragraph img {
+  width: 600px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.pic-and-paragraph .band-members {
+  text-align: center;
+}
+
+.pic-and-paragraph .booking-text {
+  text-align: center;
+}
