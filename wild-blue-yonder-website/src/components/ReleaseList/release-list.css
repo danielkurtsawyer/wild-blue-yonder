@@ -1,9 +1,10 @@
 .release-list-container {
-  margin: 60px;
+  margin: 60px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
   grid-auto-rows: 400px;
   column-gap: 40px;
   row-gap: 28px;
   justify-content: space-around;
+  width: 85%;
 }
