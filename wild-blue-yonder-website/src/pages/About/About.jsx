@@ -3,6 +3,8 @@ import oakland from "../../assets/images/Photos/oakland.jpg";
 import thunderbirdOverhead from "../../assets/images/Photos/thunderbird overhead.jpg";
 import thunderbirdFloor from "../../assets/images/Photos/thunderbird floor.jpg";
 import LinkPrimary from "../../components/Link/LinkPrimary";
+import LinkTertiary from "../../components/Link/LinkTertiary.jsx";
+import press from "./press.js";
 
 function About() {
   return (
@@ -53,6 +55,16 @@ function About() {
               // className="shadow-gradient-bottom-elevation-medium"
             />
           </p>
+        </div>
+        <div className="pic-and-paragraph">
+          <h2>WBY: In the Press</h2>
+          <ul>
+            {press.map((article) => (
+              <li>
+                <LinkTertiary href={article.link} text={article.title} />
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
