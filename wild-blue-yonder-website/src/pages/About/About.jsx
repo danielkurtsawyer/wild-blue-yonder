@@ -52,6 +52,7 @@ function About() {
             <LinkPrimary
               href="mailto:booking@wildblueyondermusic.com"
               text="booking@wildblueyondermusic.com"
+              className="large-text"
               // className="shadow-gradient-bottom-elevation-medium"
             />
           </p>
