@@ -15,7 +15,7 @@ function Header() {
             alt="Wild Blue Yonder Logo"
           />
         </Link>
-        <Link to="/" className="band-name header-text">
+        <Link to="/" className="band-name ">
           Wild Blue Yonder
         </Link>
       </div>

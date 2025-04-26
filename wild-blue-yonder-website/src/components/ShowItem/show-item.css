@@ -22,7 +22,7 @@
 
 .subtitle {
   font-family: "heading-text-italic";
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 937px) {

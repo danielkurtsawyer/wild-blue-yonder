@@ -51,6 +51,9 @@
   .release-info p {
     align-self: center;
   }
+  .release-info p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
