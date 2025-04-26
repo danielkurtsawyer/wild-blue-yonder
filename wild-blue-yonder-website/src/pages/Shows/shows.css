@@ -1,3 +1,13 @@
 .shows-page-container {
   padding: 40px;
 }
+
+.shows-page-container .upcoming-shows-header {
+  font-size: 3rem;
+}
+
+@media (max-width: 550px) {
+  .shows-page-container .upcoming-shows-header {
+    font-size: 2rem;
+  }
+}
