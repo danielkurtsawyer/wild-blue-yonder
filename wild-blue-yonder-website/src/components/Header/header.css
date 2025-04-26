@@ -33,6 +33,9 @@ header {
   .logo {
     height: 65px;
   }
+}
+
+@media (max-width: 550px) {
   .band-name {
     display: none;
   }
