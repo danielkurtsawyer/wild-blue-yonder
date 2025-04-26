@@ -16,7 +16,7 @@ export default function FeaturedRelease() {
       </div>
       <div className="release-info">
         <h1>Bridges: Out Now!</h1>
-        <p className="larger-text">
+        <p className="large-text">
           Stream the newest release from Wild Blue Yonder!
         </p>
         <ButtonPrimary
