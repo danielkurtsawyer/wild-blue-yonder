@@ -27,3 +27,13 @@ header {
   letter-spacing: -0.5px;
   color: black;
 }
+
+@media (max-width: 937px) {
+  .logo-wrapper,
+  .logo {
+    height: 65px;
+  }
+  .band-name {
+    display: none;
+  }
+}

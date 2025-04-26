@@ -218,6 +218,6 @@ footer {
 
 @media (max-width: 937px) {
   #root {
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-rows: 75px 1fr 50px;
   }
 }

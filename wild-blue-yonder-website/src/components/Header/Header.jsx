@@ -1,6 +1,7 @@
 import "./header.css";
 import wildBlueYonderLogo from "../../assets/images/Graphics/logo.png";
 import NavMenu from "../Nav Menu/NavMenu.jsx";
+import HamburgerNavIcon from "../HamburgerNavIcon/HamburgerNavIcon.jsx";
 import { Link } from "react-router";
 
 function Header() {
@@ -19,6 +20,7 @@ function Header() {
         </Link>
       </div>
       <NavMenu />
+      <HamburgerNavIcon />
     </header>
   );
 }
