@@ -20,9 +20,6 @@ footer {
 }
 
 @media (max-width: 937px) {
-  footer {
-    height: 50px;
-  }
   footer .social-media-links-wrapper {
     display: none;
   }
