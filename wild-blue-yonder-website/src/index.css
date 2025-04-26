@@ -215,3 +215,9 @@ main {
 footer {
   background: linear-gradient(180deg, #17285f 0%, #070124 100%);
 }
+
+@media (max-width: 937px) {
+  #root {
+    grid-template-rows: 100px 1fr 50px;
+  }
+}
