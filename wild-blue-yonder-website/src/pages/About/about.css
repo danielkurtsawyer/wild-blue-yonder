@@ -38,3 +38,29 @@
 .pic-and-paragraph .booking-text {
   text-align: center;
 }
+
+@media (max-width: 937px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    margin: 40px 0px;
+  }
+  .content-sections {
+    gap: 40px;
+  }
+  .pic-and-paragraph {
+    gap: 20px;
+  }
+  .pic-and-paragraph img {
+    aspect-ratio: 2/1;
+    width: 85%;
+    height: auto;
+  }
+
+  .pic-and-paragraph p,
+  .pic-and-paragraph ul {
+    width: 75%;
+  }
+}
