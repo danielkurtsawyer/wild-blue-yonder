@@ -52,3 +52,13 @@
     align-self: center;
   }
 }
+
+@media (max-width: 480px) {
+  .release-container {
+    padding: 28px;
+  }
+  .release-art img {
+    width: 100%;
+    height: auto;
+  }
+}
