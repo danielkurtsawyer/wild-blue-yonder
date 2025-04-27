@@ -1,5 +1,5 @@
 .mobile-nav-menu-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +11,10 @@
   background-color: var(--light-blue);
 
   padding: 20px 40px 40px 40px;
+}
+
+.mobile-nav-menu-active {
+  display: flex;
 }
 
 .upper-container {
@@ -65,11 +69,6 @@
   width: 481.5px;
   height: auto;
   object-fit: cover;
-}
-
-/* move this to event listener to toggle overflow class on body element every time the nav menu is opened/closed*/
-body {
-  overflow: hidden;
 }
 
 @media (max-height: 1100px) {
