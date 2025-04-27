@@ -1,0 +1,141 @@
+.mobile-nav-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--light-blue);
+
+  padding: 20px 40px 40px 40px;
+}
+
+.upper-container {
+  height: min-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-close-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-nav-menu-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.mobile-nav-menu-close {
+  height: 56px;
+  width: auto;
+}
+
+.mobile-nav-menu-container .nav-menu {
+  flex-direction: column;
+}
+
+.mobile-nav-menu-container .nav-menu a {
+  font-size: 3rem;
+}
+
+.mobile-nav-menu-container .social-media-links-wrapper {
+  justify-self: end;
+}
+
+.mobile-nav-menu-container .social-media-links-wrapper img {
+  filter: none;
+}
+
+.mobile-nav-menu-container .social-media-links-wrapper a,
+.mobile-nav-menu-container .social-media-links-wrapper img {
+  height: 40px;
+}
+
+.mobile-nav-menu-container img.poker {
+  aspect-ratio: 1.8254/1;
+  width: 481.5px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* move this to event listener to toggle overflow class on body element every time the nav menu is opened/closed*/
+body {
+  overflow: hidden;
+}
+
+@media (max-height: 1100px) {
+  .upper-container {
+    gap: 20px;
+  }
+  .mobile-nav-menu-container .nav-menu a {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-nav-menu-container {
+    padding: 20px 28px 40px 28px;
+  }
+
+  .upper-container {
+    gap: 20px;
+  }
+  .logo-close-container {
+    height: 100px;
+  }
+  .mobile-nav-menu-logo {
+    height: 100px;
+    width: 100px;
+  }
+  .mobile-nav-menu-close {
+    height: 48px;
+    width: auto;
+  }
+  .mobile-nav-menu-container .nav-menu a {
+    font-size: 1.875rem;
+  }
+  .mobile-nav-menu-container img.poker {
+    width: 90%;
+  }
+  .social-media-links-wrapper {
+    width: 240px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-height: 800px) {
+  .upper-container {
+    gap: 20px;
+  }
+  .logo-close-container {
+    height: 50px;
+  }
+  .mobile-nav-menu-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .mobile-nav-menu-close {
+    height: 32px;
+    width: auto;
+  }
+  .mobile-nav-menu-container .nav-menu a {
+    font-size: 1.5rem;
+  }
+  .mobile-nav-menu-container img.poker {
+    width: 80%;
+  }
+  .mobile-nav-menu-container .social-media-links-wrapper a,
+  .mobile-nav-menu-container .social-media-links-wrapper img {
+    height: 32px;
+  }
+}
