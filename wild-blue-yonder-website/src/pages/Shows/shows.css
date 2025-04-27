@@ -10,7 +10,7 @@
   font-size: 3rem;
 }
 
-img.poker {
+.shows-page-container img.poker {
   aspect-ratio: 1.8254/1;
   width: 481.5px;
   height: auto;
@@ -21,7 +21,7 @@ img.poker {
   .shows-page-container .upcoming-shows-header {
     font-size: 2rem;
   }
-  img.poker {
+  .shows-page-container img.poker {
     width: 90%;
   }
 }
