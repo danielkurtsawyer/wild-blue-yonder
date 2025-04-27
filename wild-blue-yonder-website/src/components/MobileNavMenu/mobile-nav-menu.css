@@ -81,6 +81,15 @@
   }
 }
 
+@media (max-width: 800px) {
+  .mobile-nav-menu-container {
+    padding: 20px 28px 120px 28px;
+  }
+  .mobile-nav-menu-container img.poker {
+    width: 300px;
+  }
+}
+
 @media (max-width: 600px) {
   .mobile-nav-menu-container {
     padding: 20px 28px 120px 28px;
