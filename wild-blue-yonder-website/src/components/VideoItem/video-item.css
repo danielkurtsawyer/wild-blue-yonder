@@ -19,6 +19,7 @@
   }
   .video-item-container h4 {
     text-align: center;
+    width: 75%;
   }
   .youtube-container {
     aspect-ratio: 16/9;
