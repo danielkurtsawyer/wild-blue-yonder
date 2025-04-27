@@ -13,3 +13,17 @@
   object-fit: cover;
   display: block;
 }
+
+@media (max-width: 650px) {
+  .image-container,
+  .image-container img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container,
+  .image-container img {
+    height: 100px;
+  }
+}
