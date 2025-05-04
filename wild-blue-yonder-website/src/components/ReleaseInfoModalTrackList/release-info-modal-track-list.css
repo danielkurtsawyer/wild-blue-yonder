@@ -6,6 +6,8 @@
 }
 .release-info-modal-track-container h4 {
   text-align: center;
+  font-family: "body-text", Roboto, sans-serif;
+  font-weight: 500;
 }
 .release-info-modal-track-list {
   font-family: "body-text", Roboto, sans-serif;
