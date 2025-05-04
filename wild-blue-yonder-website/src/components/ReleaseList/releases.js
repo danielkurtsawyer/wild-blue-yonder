@@ -11,17 +11,26 @@ const releases = [
     src: BridgesCoverArt,
     name: "Bridges",
     spotify:
-      "https://open.spotify.com/track/1QHWUuaM5nbOtZSU9ebt5B?si=74f43b8165aa49e0",
+      "https://open.spotify.com/album/3vj6tIImImKWyKhfj8fKlU?si=CVyE28IZQZCKhhylAhOx1g",
     appleMusic: "https://music.apple.com/us/album/bridges-single/1805530035",
     youtube: "https://youtu.be/I_pmaDxSd1o?si=5b7IhwfrPaPmwwAs",
   },
   {
     src: JoleneCoverArt,
     name: "Jolene",
+    spotify:
+      "https://open.spotify.com/album/3KwsF6dHWK7GMjcf4Kd8J9?si=HZRmSkYiT0CRgai0vcQJag",
+    appleMusic: "https://music.apple.com/us/album/jolene-single/1758532836",
+    youtube: "https://youtu.be/nmdyofWQNvg?si=fnLSgRldXMST0ioU",
   },
   {
     src: WhenImWithYouCoverArt,
     name: "When I'm With You",
+    spotify:
+      "https://open.spotify.com/album/6g4sLlQCypNgm2o4Tgef0x?si=P5BhU6BiTjiTBYC_h5xpGQ",
+    appleMusic:
+      "https://music.apple.com/us/album/when-im-with-you-single/1719406128",
+    youtube: "https://youtu.be/2sQJmK00Iu4?si=18x0vVGQ3mkZc_-4",
   },
   {
     src: GreenvilleCoverArt,
@@ -31,6 +40,12 @@ const releases = [
       "Sun Jam - Live 6/17/2023",
       "Game of Life - Live 6/17/2023",
     ],
+    spotify:
+      "https://open.spotify.com/album/2XEg3AwEhhnpcqYMuuIqyu?si=zGV6CzCPQI-OArldZl9rBw",
+    appleMusic:
+      "https://music.apple.com/us/album/greenville-sc-6-17-23-live-6-17-2023/1719053406",
+    youtube:
+      "https://www.youtube.com/playlist?list=OLAK5uy_k41oc1RhKDgq0VvWOrEN1f2LsAnPkQh-I",
   },
   {
     src: DancingAstrayCoverArt,
@@ -46,6 +61,11 @@ const releases = [
       "Dig a Hole",
       "Angels Prevail",
     ],
+    spotify:
+      "https://open.spotify.com/album/6pBFcBlD05xUxXflXAepUS?si=Fo9IX6KwSGK7guErKG3eiw",
+    appleMusic: "https://music.apple.com/us/album/dancing-astray/1643577528",
+    youtube:
+      "https://www.youtube.com/playlist?list=OLAK5uy_lWaCm8wpA5wnWWqxsO0KfbifcIyy4X3kg",
   },
 ];
 
