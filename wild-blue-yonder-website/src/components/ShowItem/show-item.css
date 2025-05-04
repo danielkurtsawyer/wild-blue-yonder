@@ -31,6 +31,9 @@
     display: flex;
     flex-direction: column;
   }
+  .show-item-container p {
+    text-align: center;
+  }
   .date-and-title {
     align-items: center;
   }
