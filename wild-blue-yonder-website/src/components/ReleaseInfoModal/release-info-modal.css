@@ -22,11 +22,14 @@
   width: 600px;
   padding: 28px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 28px;
   background-color: var(--gradient-top);
   border-radius: 8px;
+
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .release-info-modal-title-and-close-container {

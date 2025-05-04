@@ -26,10 +26,26 @@ const releases = [
   {
     src: GreenvilleCoverArt,
     name: "Greenville, SC 6/17/23 (Live)",
+    trackList: [
+      "Storms on Jupiter - Live 6/17/2023",
+      "Sun Jam - Live 6/17/2023",
+      "Game of Life - Live 6/17/2023",
+    ],
   },
   {
     src: DancingAstrayCoverArt,
     name: "Dancing Astray",
+    trackList: [
+      "Lighthouse",
+      "Nothing to Lose",
+      "Storms on Jupiter",
+      "Icarus",
+      "Fake Yellow Sun (Sun Jam pt. 1)",
+      "Heart of the Sun (Sun Jam pt. 2)",
+      "Masakali",
+      "Dig a Hole",
+      "Angels Prevail",
+    ],
   },
 ];
 
