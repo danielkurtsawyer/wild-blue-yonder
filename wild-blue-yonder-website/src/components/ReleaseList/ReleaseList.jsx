@@ -1,4 +1,6 @@
+import { useState } from "react";
 import ReleaseItem from "../ReleaseItem/ReleaseItem";
+import ReleaseInfoModal from "../ReleaseInfoModal/ReleaseInfoModal";
 import "./release-list.css";
 
 // import new releases here
@@ -33,11 +35,31 @@ const releases = [
 ];
 
 function ReleaseList() {
+  const [activeRelease, setActiveRelease] = useState(releases[0]);
+  console.log(activeRelease);
+  function handleReleaseInfoModalOpen() {
+    const modal = document.querySelector(".release-info-modal-container");
+    modal.classList.add("active");
+  }
+
+  const onReleaseClick = (releaseIndex) => () => {
+    setActiveRelease(releases[releaseIndex]);
+    console.log(activeRelease);
+    handleReleaseInfoModalOpen();
+  };
+
+  const releaseList = releases.map((release, index) => (
+    <ReleaseItem
+      coverArt={release.src}
+      releaseName={release.name}
+      releaseIndex={index}
+      onClick={onReleaseClick}
+    />
+  ));
   return (
     <div className="release-list-container">
-      {releases.map((release) => (
-        <ReleaseItem coverArt={release.src} releaseName={release.name} />
-      ))}
+      {releaseList}
+      <ReleaseInfoModal data={activeRelease} />
     </div>
   );
 }

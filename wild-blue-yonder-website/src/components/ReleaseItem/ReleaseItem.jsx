@@ -1,7 +1,9 @@
+import ReleaseInfoModal from "../ReleaseInfoModal/ReleaseInfoModal.jsx";
+
 import "./release-item.css";
-function ReleaseItem({ coverArt, releaseName }) {
+function ReleaseItem({ coverArt, releaseName, index, onClick }) {
   return (
-    <div className="release-item-container">
+    <div className="release-item-container" onClick={onClick(index)}>
       <img
         className="release-cover-art shadow-gradient-bottom-elevation-medium"
         src={coverArt}
