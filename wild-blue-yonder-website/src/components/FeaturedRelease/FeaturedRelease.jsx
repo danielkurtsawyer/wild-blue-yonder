@@ -20,12 +20,12 @@ export default function FeaturedRelease() {
           Stream the newest release from Wild Blue Yonder!
         </p>
         <ButtonPrimary
-          href="https://google.com"
+          href="https://distrokid.com/hyperfollow/wildblueyonder/bridges"
           text="Stream Bridges"
           className="shadow-gradient-bottom-elevation-medium release-button"
         />
         <ButtonSecondary
-          href="https://google.com"
+          href="https://youtu.be/d_t6Ajy9c9I?si=eQs55cBzLSrjnoQa"
           text="Watch the Music Video"
           className="shadow-gradient-bottom-elevation-medium release-button"
         />
