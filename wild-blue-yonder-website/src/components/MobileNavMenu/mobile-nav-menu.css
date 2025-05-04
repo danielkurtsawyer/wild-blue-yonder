@@ -41,6 +41,7 @@
 .mobile-nav-menu-close {
   height: 56px;
   width: auto;
+  cursor: pointer;
 }
 
 .mobile-nav-menu-container .nav-menu {
