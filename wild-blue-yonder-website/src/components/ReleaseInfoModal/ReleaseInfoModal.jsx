@@ -16,6 +16,7 @@ function ReleaseInfoModal({
   function handleReleaseInfoModalClose() {
     const modal = document.querySelector(".release-info-modal-container");
     modal.classList.remove("active");
+    document.body.style.overflow = "visible";
   }
   return (
     <div className="release-info-modal-container">

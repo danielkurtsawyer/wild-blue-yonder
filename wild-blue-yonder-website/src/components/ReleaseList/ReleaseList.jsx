@@ -9,6 +9,7 @@ function ReleaseList() {
   function handleReleaseInfoModalOpen() {
     const modal = document.querySelector(".release-info-modal-container");
     modal.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   const onReleaseClick = (releaseIndex) => {
