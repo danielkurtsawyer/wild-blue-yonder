@@ -7,16 +7,17 @@ const shows = [
   },
   {
     date: "June 14, 2025",
-    name: "Parking Pad",
+    name: "The Parking Pad",
     location: "Dormont, PA",
-    ticketLink: "https://google.com",
+    ticketLink:
+      "https://www.eventbrite.com/e/wild-blue-yonder-live-from-the-parking-pad-tickets-1247157273979?aff=ebdsshios",
   },
   {
     date: "July 24, 2025",
     name: "Haven",
     location: "Pittsburgh, PA",
-    title: "Phish After Party",
-    ticketLink: "https://google.com",
+    title: "Phish After Show with Satellite Dog",
+    ticketLink: "https://indietix.org/events/postgenre/06242025",
   },
 ];
 
