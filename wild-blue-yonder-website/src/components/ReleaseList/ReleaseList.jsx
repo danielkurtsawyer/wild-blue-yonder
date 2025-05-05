@@ -21,6 +21,7 @@ function ReleaseList() {
 
   const releaseList = releases.map((release, index) => (
     <ReleaseItem
+      key={index}
       coverArt={release.src}
       releaseName={release.name}
       releaseIndex={index}
