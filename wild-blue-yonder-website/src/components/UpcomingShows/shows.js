@@ -3,7 +3,7 @@ const shows = [
     date: "May 31, 2025",
     name: "Funky Fest",
     location: "The Glades Festival Grounds",
-    ticketLink: "https://google.com",
+    ticketLink: "https://www.facebook.com/FUNKyFEST/",
   },
   {
     date: "June 14, 2025",
