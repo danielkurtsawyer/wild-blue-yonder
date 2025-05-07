@@ -4,36 +4,51 @@ import ButtonPrimary from "../Button/ButtonPrimary";
 import ButtonSecondary from "../Button/ButtonSecondary";
 import ButtonTertiary from "../Button/ButtonTertiary";
 
-export default function FeaturedRelease() {
+export default function FeaturedRelease({
+  src,
+  alt,
+  heading,
+  description,
+  primaryLink,
+  secondaryLink,
+  tertiaryLink,
+  primaryText,
+  secondaryText,
+  tertiaryText,
+}) {
   return (
     <div className="release-container">
       <div className="release-art">
         <img
-          src={BridgesArt}
-          alt=""
+          src={src}
+          alt={alt}
           className="shadow-gradient-bottom-elevation-medium"
         />
       </div>
       <div className="release-info">
-        <h1>Bridges: Out Now!</h1>
-        <p className="large-text">
-          Stream the newest release from Wild Blue Yonder!
-        </p>
-        <ButtonPrimary
-          href="https://distrokid.com/hyperfollow/wildblueyonder/bridges"
-          text="Stream Bridges"
-          className="shadow-gradient-bottom-elevation-medium release-button"
-        />
-        <ButtonSecondary
-          href="https://youtu.be/d_t6Ajy9c9I?si=eQs55cBzLSrjnoQa"
-          text="Watch the Music Video"
-          className="shadow-gradient-bottom-elevation-medium release-button"
-        />
-        <ButtonTertiary
-          href="https://google.com"
-          text="Watch the Live Version"
-          className="shadow-gradient-bottom-elevation-medium release-button"
-        />
+        <h1>{heading}</h1>
+        <p className="large-text">{description}</p>
+        {primaryLink && (
+          <ButtonPrimary
+            href={primaryLink}
+            text={primaryText}
+            className="shadow-gradient-bottom-elevation-medium release-button"
+          />
+        )}
+        {secondaryLink && (
+          <ButtonSecondary
+            href={secondaryLink}
+            text={secondaryText}
+            className="shadow-gradient-bottom-elevation-medium release-button"
+          />
+        )}
+        {tertiaryLink && (
+          <ButtonTertiary
+            href={tertiaryLink}
+            text={tertiaryText}
+            className="shadow-gradient-bottom-elevation-medium release-button"
+          />
+        )}
       </div>
     </div>
   );
