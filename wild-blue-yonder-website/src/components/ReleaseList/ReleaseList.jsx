@@ -13,15 +13,13 @@ function ReleaseList() {
   }
 
   const onReleaseClick = (releaseIndex) => {
-    console.log("Release index", releaseIndex);
     setActiveRelease(releases[releaseIndex]);
-    console.log("Active release", activeRelease);
     handleReleaseInfoModalOpen();
   };
 
   const releaseList = releases.map((release, index) => (
     <ReleaseItem
-      key={index}
+      key={release.name}
       coverArt={release.src}
       releaseName={release.name}
       releaseIndex={index}
