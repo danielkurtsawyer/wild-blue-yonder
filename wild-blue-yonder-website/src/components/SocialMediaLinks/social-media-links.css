@@ -2,7 +2,7 @@
   width: max-content;
   height: max-content;
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .social-media-links-wrapper a,
@@ -12,4 +12,24 @@
 .social-media-links-wrapper img {
   filter: invert(100%) sepia(46%) saturate(501%) hue-rotate(295deg)
     brightness(104%) contrast(96%);
+}
+
+.social-media-links-wrapper a {
+  opacity: 100%;
+  transform: scale(1);
+  transition: 0.2s;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.social-media-links-wrapper a.active {
+  transform: scale(1.2);
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.social-media-links-wrapper a.inactive {
+  opacity: 50%;
+  transition: 0.2s;
 }
