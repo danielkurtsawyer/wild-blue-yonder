@@ -13,7 +13,7 @@ const shows = [
       "https://www.eventbrite.com/e/wild-blue-yonder-live-from-the-parking-pad-tickets-1247157273979?aff=ebdsshios",
   },
   {
-    date: "July 24, 2025",
+    date: "June 24, 2025",
     name: "Haven",
     location: "Pittsburgh, PA",
     title: "Phish After Show with Satellite Dog",
