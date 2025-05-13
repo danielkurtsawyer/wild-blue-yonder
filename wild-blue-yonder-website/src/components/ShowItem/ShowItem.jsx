@@ -22,7 +22,7 @@ export default function ShowItem({
       <ButtonPrimary
         href={ticketLink}
         text="TICKETS"
-        className="shadow-gradient-bottom-elevation-medium"
+        className="shadow-elevation-medium"
       />
     </div>
   );

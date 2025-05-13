@@ -13,7 +13,7 @@ function About() {
       <div className="content-sections">
         <div className="pic-and-paragraph">
           <img
-            className="shadow-gradient-bottom-elevation-medium"
+            className="shadow-elevation-medium"
             src={oakland}
             alt="Oakland"
           />
@@ -27,7 +27,7 @@ function About() {
         <div className="pic-and-paragraph">
           <h2>Biography</h2>
           <img
-            className="shadow-gradient-bottom-elevation-medium"
+            className="shadow-elevation-medium"
             src={thunderbirdFloor}
             alt="ThunderBirdFloor"
           />
@@ -42,7 +42,7 @@ function About() {
         <div className="pic-and-paragraph">
           <h2>Book Us</h2>
           <img
-            className="shadow-gradient-bottom-elevation-medium"
+            className="shadow-elevation-medium"
             src={thunderbirdOverhead}
             alt="ThunderBirdOverhead"
           />

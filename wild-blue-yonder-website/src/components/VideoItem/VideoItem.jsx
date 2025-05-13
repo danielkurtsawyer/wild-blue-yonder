@@ -6,7 +6,7 @@ export default function VideoItem({ title, link }) {
     <div className="video-item-container">
       <h4>{title ? title : "Video Title"}</h4>
       <iframe
-        className="youtube-container shadow-gradient-bottom-elevation-medium"
+        className="youtube-container shadow-elevation-medium"
         src={link}
       ></iframe>
     </div>

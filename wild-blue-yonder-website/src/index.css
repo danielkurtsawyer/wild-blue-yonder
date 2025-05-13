@@ -41,65 +41,25 @@ a {
   --orange: #fc7a31;
 
   /* Shadows */
-  --shadow-color-light-blue: 188deg 34% 55%;
-  --shadow-light-blue-elevation-low: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-light-blue) / 0.34),
-    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color-light-blue) / 0.34),
-    1px 2px 2.5px -2.5px hsl(var(--shadow-color-light-blue) / 0.34);
-  --shadow-light-blue-elevation-medium: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-light-blue) / 0.36),
-    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color-light-blue) / 0.36),
-    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color-light-blue) / 0.36),
-    5px 10px 12.6px -2.5px hsl(var(--shadow-color-light-blue) / 0.36);
-  --shadow-light-blue-elevation-high: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-light-blue) / 0.34),
-    1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color-light-blue) / 0.34),
-    2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color-light-blue) / 0.34),
-    4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color-light-blue) / 0.34),
-    7.1px 14.3px 18px -1.4px hsl(var(--shadow-color-light-blue) / 0.34),
-    11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color-light-blue) / 0.34),
-    17px 33.9px 42.7px -2.1px hsl(var(--shadow-color-light-blue) / 0.34),
-    25px 50px 62.9px -2.5px hsl(var(--shadow-color-light-blue) / 0.34);
+  --shadow-elevation-low: 0px 0px 0px rgba(3, 7, 18, 0.02),
+    1px 1px 1px rgba(3, 7, 18, 0.04), 1px 1px 1px rgba(3, 7, 18, 0.06),
+    3px 3px 3px rgba(3, 7, 18, 0.08), 4px 4px 4px rgba(3, 7, 18, 0.1);
 
-  --shadow-color-gradient-top: 193deg 38% 51%;
-  --shadow-gradient-top-elevation-low: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-top) / 0.34),
-    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color-gradient-top) / 0.34),
-    1px 2px 2.5px -2.5px hsl(var(--shadow-color-gradient-top) / 0.34);
-  --shadow-gradient-top-elevation-medium: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-top) / 0.36),
-    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color-gradient-top) / 0.36),
-    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color-gradient-top) / 0.36),
-    5px 10px 12.6px -2.5px hsl(var(--shadow-color-gradient-top) / 0.36);
-  --shadow-gradient-top-elevation-high: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-top) / 0.34),
-    1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color-gradient-top) / 0.34),
-    2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color-gradient-top) / 0.34),
-    4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color-gradient-top) / 0.34),
-    7.1px 14.3px 18px -1.4px hsl(var(--shadow-color-gradient-top) / 0.34),
-    11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color-gradient-top) / 0.34),
-    17px 33.9px 42.7px -2.1px hsl(var(--shadow-color-gradient-top) / 0.34),
-    25px 50px 62.9px -2.5px hsl(var(--shadow-color-gradient-top) / 0.34);
+  --shadow-elevation-medium: 0px 0px 0px rgba(3, 7, 18, 0.02),
+    1px 1px 1px rgba(3, 7, 18, 0.04), 3px 3px 3px rgba(3, 7, 18, 0.06),
+    5px 5px 5px rgba(3, 7, 18, 0.08), 8px 8px 8px rgba(3, 7, 18, 0.1);
 
-  --shadow-color-gradient-bottom: 199deg 65% 40%;
-  --shadow-gradient-bottom-elevation-low: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    1px 2px 2.5px -2.5px hsl(var(--shadow-color-gradient-bottom) / 0.34);
-  --shadow-gradient-bottom-elevation-medium: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-bottom) / 0.36),
-    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color-gradient-bottom) / 0.36),
-    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color-gradient-bottom) / 0.36),
-    5px 10px 12.6px -2.5px hsl(var(--shadow-color-gradient-bottom) / 0.36);
-  --shadow-gradient-bottom-elevation-high: 0.3px 0.5px 0.7px
-      hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    7.1px 14.3px 18px -1.4px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    17px 33.9px 42.7px -2.1px hsl(var(--shadow-color-gradient-bottom) / 0.34),
-    25px 50px 62.9px -2.5px hsl(var(--shadow-color-gradient-bottom) / 0.34);
+  --shadow-elevation-hover: 0px 0px 0px rgba(3, 7, 18, 0.02),
+    2px 2px 1px rgba(3, 7, 18, 0.04), 4px 4px 3px rgba(3, 7, 18, 0.06),
+    6px 6px 5px rgba(3, 7, 18, 0.08), 10px 10px 8px rgba(3, 7, 18, 0.1);
+
+  --shadow-elevation-high: 1px 1px 0px rgba(3, 7, 18, 0.02),
+    3px 3px 1px rgba(3, 7, 18, 0.04), 6px 6px 3px rgba(3, 7, 18, 0.06),
+    10px 10px 5px rgba(3, 7, 18, 0.08), 16px 16px 8px rgba(3, 7, 18, 0.1);
+
+  --shadow-elevation-highest: 3px 3px 3px rgba(3, 7, 18, 0.04),
+    13px 13px 13px rgba(3, 7, 18, 0.08), 29px 29px 29px rgba(3, 7, 18, 0.12),
+    51px 51px 51px rgba(3, 7, 18, 0.16), 80px 80px 80px rgba(3, 7, 18, 0.2);
 
   /* font grows 1px for every 100px of viewport width */
   font-size: 16px;
@@ -120,28 +80,20 @@ a {
 
 /* Style classes */
 
-.shadow-gradient-top-elevation-low {
-  box-shadow: var(--shadow-gradient-top-elevation-low);
+.shadow-elevation-low {
+  box-shadow: var(--shadow-elevation-low);
 }
-
-.shadow-light-blue-elevation-medium {
-  box-shadow: var(--shadow-light-blue-elevation-medium);
+.shadow-elevation-medium {
+  box-shadow: var(--shadow-elevation-medium);
 }
-
-.shadow-light-blue-elevation-high {
-  box-shadow: var(--shadow-light-blue-elevation-high);
+.shadow-elevation-hover {
+  box-shadow: var(--shadow-elevation-hover);
 }
-
-.shadow-gradient-bottom-elevation-low {
-  box-shadow: var(--shadow-gradient-bottom-elevation-low);
+.shadow-elevation-high {
+  box-shadow: var(--shadow-elevation-high);
 }
-
-.shadow-gradient-bottom-elevation-medium {
-  box-shadow: var(--shadow-gradient-bottom-elevation-medium);
-}
-
-.shadow-gradient-bottom-elevation-high {
-  box-shadow: var(--shadow-gradient-bottom-elevation-high);
+.shadow-elevation-highest {
+  box-shadow: var(--shadow-elevation-highest);
 }
 
 #root {

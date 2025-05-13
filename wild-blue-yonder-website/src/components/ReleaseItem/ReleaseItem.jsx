@@ -11,7 +11,7 @@ function ReleaseItem({ coverArt, releaseName, releaseIndex, onClick }) {
       }}
     >
       <img
-        className="release-cover-art shadow-gradient-bottom-elevation-medium"
+        className="release-cover-art shadow-elevation-medium"
         src={coverArt}
         alt={releaseName}
       />

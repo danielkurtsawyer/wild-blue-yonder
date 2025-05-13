@@ -19,11 +19,7 @@ export default function FeaturedRelease({
   return (
     <div className="release-container">
       <div className="release-art">
-        <img
-          src={src}
-          alt={alt}
-          className="shadow-gradient-bottom-elevation-medium"
-        />
+        <img src={src} alt={alt} className="shadow-elevation-medium" />
       </div>
       <div className="release-info">
         <h1>{heading}</h1>
@@ -32,21 +28,21 @@ export default function FeaturedRelease({
           <ButtonPrimary
             href={primaryLink}
             text={primaryText}
-            className="shadow-gradient-bottom-elevation-medium release-button"
+            className="shadow-elevation-medium release-button"
           />
         )}
         {secondaryLink && (
           <ButtonSecondary
             href={secondaryLink}
             text={secondaryText}
-            className="shadow-gradient-bottom-elevation-medium release-button"
+            className="shadow-elevation-medium release-button"
           />
         )}
         {tertiaryLink && (
           <ButtonTertiary
             href={tertiaryLink}
             text={tertiaryText}
-            className="shadow-gradient-bottom-elevation-medium release-button"
+            className="shadow-elevation-medium release-button"
           />
         )}
       </div>

@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 function Header() {
   return (
-    <header className="shadow-gradient-top-elevation-low">
+    <header className="shadow-elevation-low">
       <div className="logo-wrapper">
         <Link to="/">
           <img

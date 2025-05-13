@@ -20,7 +20,7 @@ function ReleaseInfoModal({
   }
   return (
     <div className="release-info-modal-container">
-      <div className="release-info-modal shadow-gradient-bottom-elevation-high">
+      <div className="release-info-modal shadow-elevation-highest">
         <div className="release-info-modal-title-and-close-container">
           <h3 className="release-info-modal-title">{name}</h3>
           <img
