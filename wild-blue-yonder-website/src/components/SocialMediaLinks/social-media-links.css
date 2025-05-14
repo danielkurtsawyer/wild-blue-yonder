@@ -33,3 +33,14 @@
   opacity: 50%;
   transition: 0.2s;
 }
+
+@media (max-width: 600px) {
+  .social-media-links-wrapper {
+    gap: 40px;
+  }
+  .social-media-links-wrapper a {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+  }
+}
