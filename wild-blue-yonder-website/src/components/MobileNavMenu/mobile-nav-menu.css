@@ -49,7 +49,7 @@
 
 .mobile-nav-menu-container .nav-menu {
   flex-direction: column;
-  gap: 12px;
+  /* gap: 12px; */
 }
 
 .mobile-nav-menu-container .nav-menu a {
