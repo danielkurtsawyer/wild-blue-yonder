@@ -6,7 +6,6 @@ function ReleaseItem({ coverArt, releaseName, releaseIndex, onClick }) {
     <div
       className="release-item-container"
       onClick={() => {
-        console.log(releaseIndex + " Clicked");
         onClick(releaseIndex);
       }}
     >
