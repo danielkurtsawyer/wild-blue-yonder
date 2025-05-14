@@ -87,6 +87,17 @@
   aspect-ratio: 1/1;
 }
 
+.release-info-modal-links-container a.active {
+  transform: scale(1.2);
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.release-info-modal-links-container a.inactive {
+  opacity: 50%;
+  transition: 0.2s;
+}
+
 @media (max-width: 700px) {
   .release-info-modal {
     width: 100%;
