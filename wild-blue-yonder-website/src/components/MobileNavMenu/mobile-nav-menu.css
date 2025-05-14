@@ -11,10 +11,13 @@
   background-color: var(--light-blue);
 
   padding: 20px 40px 40px 40px;
+
+  transform: translateX(100%);
+  transition: transform 500ms ease-in-out;
 }
 
 .mobile-nav-menu-active {
-  display: flex;
+  transform: translateX(0%);
 }
 
 .upper-container {
@@ -147,6 +150,12 @@
   .mobile-nav-menu-container .social-media-links-wrapper a,
   .mobile-nav-menu-container .social-media-links-wrapper img {
     height: 32px;
+  }
+}
+
+@media (max-width: 937px) {
+  .mobile-nav-menu-container {
+    display: flex;
   }
 }
 
