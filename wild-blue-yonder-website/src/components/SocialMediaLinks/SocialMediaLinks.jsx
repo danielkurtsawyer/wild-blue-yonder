@@ -8,7 +8,7 @@ import tiktokLogo from "../../assets/icons/logo-tiktok.svg";
 import "./social-media-links.css";
 
 function SocialMediaLinks() {
-  function handleHover(event, index) {
+  function handleHover(index) {
     let allATags = document.querySelectorAll(".social-media-links-wrapper a");
     allATags.forEach((tag) => {
       let indexOfTag = +tag.getAttribute("index");
@@ -45,8 +45,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="0"
-        onMouseEnter={(e) => handleHover(e, 0)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(0)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={spotifyLogo} alt="Spotify" />
       </a>
@@ -55,8 +55,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="1"
-        onMouseEnter={(e) => handleHover(e, 1)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(1)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={appleMusicLogo} alt="Apple Music" />
       </a>
@@ -65,8 +65,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="2"
-        onMouseEnter={(e) => handleHover(e, 2)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(2)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={instagramLogo} alt="Instagram" />
       </a>
@@ -75,8 +75,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="3"
-        onMouseEnter={(e) => handleHover(e, 3)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(3)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={youtubeLogo} alt="Youtube" />
       </a>
@@ -85,8 +85,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="4"
-        onMouseEnter={(e) => handleHover(e, 4)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(4)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={tiktokLogo} alt="TikTok" />
       </a>
@@ -95,8 +95,8 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="5"
-        onMouseEnter={(e) => handleHover(e, 5)}
-        onMouseLeave={(e) => handleLeave()}
+        onMouseEnter={() => handleHover(5)}
+        onMouseLeave={() => handleLeave()}
       >
         <img src={facebookLogo} alt="FaceBook" />
       </a>
