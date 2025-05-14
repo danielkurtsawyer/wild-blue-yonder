@@ -8,6 +8,7 @@ export default function VideoItem({ title, link }) {
       <iframe
         className="youtube-container shadow-elevation-medium"
         src={link}
+        allow="fullscreen"
       ></iframe>
     </div>
   );
