@@ -12,8 +12,14 @@
 .release-cover-art {
   width: 100%;
   border-radius: 8px;
+  transition: transform 250ms, box-shadow 250ms;
 }
 
 .release-name {
   font-family: "body-text";
+}
+
+.release-cover-art:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-elevation-hover);
 }
