@@ -1,6 +1,6 @@
 .release-info-modal-container {
   z-index: 3;
-  display: none;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,12 +8,14 @@
   width: 100vw;
   flex-direction: column;
   align-items: center;
-  background-color: #03071240;
+  transition: background-color 500ms ease-in-out;
   padding: 40px 20px;
+  transform: scale(0);
 }
 
 .release-info-modal-container.active {
-  display: flex;
+  transform: scale(1);
+  background-color: #03071240;
 }
 
 .release-info-modal {
@@ -28,6 +30,12 @@
   border-radius: 8px;
   max-height: 75vh;
   overflow-y: auto;
+  opacity: 0%;
+  transition: opacity 500ms ease-in-out;
+}
+
+.release-info-modal.active {
+  opacity: 100%;
 }
 
 .release-info-modal-title-and-close-container {

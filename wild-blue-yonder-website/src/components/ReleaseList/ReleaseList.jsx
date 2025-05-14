@@ -7,7 +7,11 @@ import releases from "./releases.js";
 function ReleaseList() {
   const [activeRelease, setActiveRelease] = useState(releases[0]);
   function handleReleaseInfoModalOpen() {
-    const modal = document.querySelector(".release-info-modal-container");
+    const modalContainer = document.querySelector(
+      ".release-info-modal-container"
+    );
+    const modal = document.querySelector(".release-info-modal");
+    modalContainer.classList.add("active");
     modal.classList.add("active");
     document.body.style.overflow = "hidden";
   }

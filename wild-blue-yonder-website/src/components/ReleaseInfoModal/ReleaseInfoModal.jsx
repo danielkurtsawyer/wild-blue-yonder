@@ -14,7 +14,11 @@ function ReleaseInfoModal({
   trackList,
 }) {
   function handleReleaseInfoModalClose() {
-    const modal = document.querySelector(".release-info-modal-container");
+    const modalContainer = document.querySelector(
+      ".release-info-modal-container"
+    );
+    const modal = document.querySelector(".release-info-modal");
+    modalContainer.classList.remove("active");
     modal.classList.remove("active");
     document.body.style.overflow = "visible";
   }
