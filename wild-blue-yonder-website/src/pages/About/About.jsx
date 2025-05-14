@@ -48,7 +48,7 @@ function About() {
           />
           <p className="booking-text">
             Interested in booking Wild Blue Yonder? Booking inquiries can be
-            sent to <strong>Mark Blumele</strong> at: <br /> <br />
+            sent to <strong>Mark Bluemle</strong> at: <br /> <br />
             <LinkPrimary
               href="mailto:booking@wildblueyondermusic.com"
               text="booking@wildblueyondermusic.com"
