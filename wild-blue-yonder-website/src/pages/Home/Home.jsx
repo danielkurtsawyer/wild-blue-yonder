@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import HeroImage from "../../components/HeroImage/HeroImage";
 import FeaturedRelease from "../../components/FeaturedRelease/FeaturedRelease";
 import UpcomingShows from "../../components/UpcomingShows/UpcomingShows";
@@ -8,6 +9,13 @@ import "./home.css";
 function Home() {
   return (
     <div className="home-page-container">
+      <Helmet>
+        <title data-react-helmet="true">Wild Blue Yonder | Home</title>
+        <meta
+          name="description"
+          content="Wild Blue Yonder is a Pittsburgh-based jam band delivering high-energy live performances driven by improvisational groove-infused music."
+        />
+      </Helmet>
       <HeroImage />
       <FeaturedRelease
         src={BridgesArt}

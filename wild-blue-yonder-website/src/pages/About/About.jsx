@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import "./about.css";
 import oakland from "../../assets/images/Photos/oakland.jpg";
 import thunderbirdOverhead from "../../assets/images/Photos/thunderbird overhead.jpg";
@@ -9,6 +10,13 @@ import press from "./press.js";
 function About() {
   return (
     <div className="about-container">
+      <Helmet>
+        <title data-react-helmet="true">Wild Blue Yonder | About</title>
+        <meta
+          name="description"
+          content="Explore the members who make up Wild Blue Yonder and get in contact about bookings!"
+        />
+      </Helmet>
       <h1>About Us</h1>
       <div className="content-sections">
         <div className="pic-and-paragraph">
