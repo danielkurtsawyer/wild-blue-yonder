@@ -1,7 +1,11 @@
 const press = [
   {
-    title: "Hughshows Blog",
-    link: "https://www.hughshows.com/blog/first-last-wild-blue-yonder/",
+    title: "BloodHound Magazine",
+    link: "https://www.bloodhoundmag.com/post/band-spotlight-into-the-wild-blue-yonder",
+  },
+  {
+    title: "Pitt News - Wild Blue Yonder at the Oakland Block Party 2023",
+    link: "https://pittnews.com/article/182412/arts-and-entertainment/its-up-to-us-to-keep-it-alive-oakland-block-party-showcases-pitts-local-music-scene/",
   },
   {
     title: "47Magazine Editorial Article Feature",
@@ -16,8 +20,8 @@ const press = [
     link: "https://www.wtae.com/article/project-community-woodland-hills-students-respond-to-violence-with-song-angels-prevail/27797658",
   },
   {
-    title: "Pitt News - Wild Blue Yonder at the Oakland Block Party 2023",
-    link: "https://pittnews.com/article/182412/arts-and-entertainment/its-up-to-us-to-keep-it-alive-oakland-block-party-showcases-pitts-local-music-scene/",
+    title: "Hughshows Blog",
+    link: "https://www.hughshows.com/blog/first-last-wild-blue-yonder/",
   },
 ];
 
