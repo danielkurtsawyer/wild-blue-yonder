@@ -21,14 +21,14 @@
 .release-info-modal {
   display: flex;
   width: 600px;
-  padding: 28px;
+  padding: 0px 28px 28px 28px;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   gap: 28px;
   background-color: var(--gradient-top);
   border-radius: 8px;
-  max-height: 75vh;
+  max-height: 80vh;
   overflow-y: auto;
   opacity: 0%;
   transition: opacity 500ms ease-in-out;
@@ -44,6 +44,11 @@
   grid-template-columns: 24px 1fr 24px;
   justify-items: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--gradient-top);
+  padding-top: 28px;
+  padding-bottom: 12px;
 }
 
 .release-info-modal-title {
