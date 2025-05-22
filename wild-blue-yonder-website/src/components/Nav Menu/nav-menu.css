@@ -4,13 +4,15 @@
   font-family: "body-text";
   font-size: 1.25rem;
   display: flex;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .nav-menu a {
   color: black;
   font-weight: bold;
   font-size: 1.25rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .nav-menu a.active {
@@ -32,5 +34,19 @@
 @media (max-width: 937px) {
   header > .nav-menu {
     display: none;
+  }
+}
+
+@media (max-width: 937px) {
+  .nav-menu {
+    column-gap: 0px;
+    gap: 0px;
+  }
+  .nav-menu a {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    /* width: auto; */
   }
 }
