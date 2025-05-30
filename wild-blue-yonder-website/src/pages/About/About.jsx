@@ -74,6 +74,10 @@ function About() {
             </ul>
           </div>
         </div>
+        <div className="description">
+          Wild Blue Yonder is a Pittsburgh-based jam band delivering high-energy
+          live performances driven by improvisational groove-infused music.
+        </div>
       </div>
     </>
   );

@@ -26,6 +26,10 @@ function Home() {
           secondaryText="Watch the Music Video"
         />
         <UpcomingShows />
+        <div className="description large-text">
+          Wild Blue Yonder is a Pittsburgh-based jam band delivering high-energy
+          live performances driven by improvisational groove-infused music.
+        </div>
       </div>
     </>
   );
