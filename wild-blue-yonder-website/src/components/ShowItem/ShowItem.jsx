@@ -19,11 +19,14 @@ export default function ShowItem({
       <p className="large-text">
         {venueLocation ? venueLocation : "Venue Location"}
       </p>
-      <ButtonPrimary
-        href={ticketLink}
-        text="TICKETS"
-        className="shadow-elevation-medium"
-      />
+      {ticketLink && (
+        <ButtonPrimary
+          href={ticketLink}
+          text="TICKETS"
+          className="shadow-elevation-medium"
+        />
+      )}
+      {!ticketLink && <div className="free">FREE</div>}
     </div>
   );
 }

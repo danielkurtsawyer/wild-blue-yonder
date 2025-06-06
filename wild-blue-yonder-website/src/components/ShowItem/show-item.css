@@ -25,6 +25,13 @@
   font-size: 1.25rem;
 }
 
+.free {
+  font-family: "body-text";
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
 @media (max-width: 937px) {
   .show-item-container {
     width: 85%;
