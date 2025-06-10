@@ -11,7 +11,7 @@ function Home() {
       <title>Wild Blue Yonder</title>
       <meta
         name="description"
-        content="Wild Blue Yonder is a Pittsburgh-based jam band delivering high-energy live performances driven by improvisational groove-infused music."
+        content="Wild Blue Yonder is a Pittsburgh-based jam band delivering passionate live performances driven by improvisational groove-infused music."
       />
       <div className="home-page-container">
         <HeroImage />
@@ -27,7 +27,7 @@ function Home() {
         />
         <UpcomingShows />
         <div className="description large-text">
-          Wild Blue Yonder is a Pittsburgh-based jam band delivering high-energy
+          Wild Blue Yonder is a Pittsburgh-based jam band delivering passionate
           live performances driven by improvisational groove-infused music.
         </div>
       </div>
