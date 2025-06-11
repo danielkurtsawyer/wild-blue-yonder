@@ -1,5 +1,9 @@
 const videos = [
   {
+    title: "Wild Blue Yonder - Pitt Welcome Week 2024",
+    link: "https://youtu.be/-59cANek1kU",
+  },
+  {
     title: "Wild Blue Yonder - Bridges | Official Music Video",
     link: "https://youtu.be/d_t6Ajy9c9I?si=s8lV9JGiPjNqVFDn",
   },
