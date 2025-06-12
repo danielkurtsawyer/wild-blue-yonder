@@ -4,6 +4,7 @@ import JoleneCoverArt from "../../assets/images/Album Art/Jolene cover.jpeg";
 import WhenImWithYouCoverArt from "../../assets/images/Album Art/when im with you cover.jpeg";
 import GreenvilleCoverArt from "../../assets/images/Album Art/live from green cover.jpeg";
 import DancingAstrayCoverArt from "../../assets/images/Album Art/dancing astray cover.jpg";
+import WelcomeWeekCoverArt from "../../assets/images/Album Art/welcome-week-cover-art.jpg";
 
 const releases = [
   // add new releases here
@@ -66,6 +67,11 @@ const releases = [
     appleMusic: "https://music.apple.com/us/album/dancing-astray/1643577528",
     youtube:
       "https://www.youtube.com/playlist?list=OLAK5uy_lWaCm8wpA5wnWWqxsO0KfbifcIyy4X3kg",
+  },
+  {
+    src: WelcomeWeekCoverArt,
+    name: "Pitt Welcome Week (Bandcamp Release)",
+    bandcamp: "https://wildblueyonder.bandcamp.com/album/8-22-24-pitt-welcome-week",
   },
 ];
 

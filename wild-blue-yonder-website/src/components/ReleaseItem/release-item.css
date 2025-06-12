@@ -17,6 +17,7 @@
 
 .release-name {
   font-family: "body-text";
+  text-align: center;
 }
 
 .release-cover-art:hover {
