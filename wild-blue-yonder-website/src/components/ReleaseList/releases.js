@@ -9,6 +9,11 @@ import WelcomeWeekCoverArt from "../../assets/images/Album Art/welcome-week-cove
 const releases = [
   // add new releases here
   {
+    src: WelcomeWeekCoverArt,
+    name: "Pitt Welcome Week (Bandcamp Release)",
+    bandcamp: "https://wildblueyonder.bandcamp.com/album/8-22-24-pitt-welcome-week",
+  },
+  {
     src: BridgesCoverArt,
     name: "Bridges",
     spotify:
@@ -67,11 +72,6 @@ const releases = [
     appleMusic: "https://music.apple.com/us/album/dancing-astray/1643577528",
     youtube:
       "https://www.youtube.com/playlist?list=OLAK5uy_lWaCm8wpA5wnWWqxsO0KfbifcIyy4X3kg",
-  },
-  {
-    src: WelcomeWeekCoverArt,
-    name: "Pitt Welcome Week (Bandcamp Release)",
-    bandcamp: "https://wildblueyonder.bandcamp.com/album/8-22-24-pitt-welcome-week",
   },
 ];
 
