@@ -1,12 +1,18 @@
 import ReleaseInfoModal from "../ReleaseInfoModal/ReleaseInfoModal.jsx";
 
 import "./release-item.css";
-function ReleaseItem({ coverArt, releaseName, releaseIndex, onClick }) {
+function ReleaseItem({
+  coverArt,
+  releaseName,
+  releaseIndex,
+  onClick,
+  bandcamp,
+}) {
   return (
     <div
       className="release-item-container"
       onClick={() => {
-        onClick(releaseIndex);
+        onClick(releaseIndex, bandcamp);
       }}
     >
       <img

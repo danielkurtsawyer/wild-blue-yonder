@@ -16,9 +16,14 @@ function ReleaseList() {
     document.body.style.overflow = "hidden";
   }
 
-  const onReleaseClick = (releaseIndex) => {
-    setActiveRelease(releases[releaseIndex]);
-    handleReleaseInfoModalOpen();
+  const onReleaseClick = (releaseIndex, bandcamp) => {
+    console.log(bandcamp);
+    if (bandcamp) {
+      window.open(bandcamp, "_blank");
+    } else {
+      setActiveRelease(releases[releaseIndex]);
+      handleReleaseInfoModalOpen();
+    }
   };
 
   const releaseList = releases.map((release, index) => (
@@ -28,6 +33,7 @@ function ReleaseList() {
       releaseName={release.name}
       releaseIndex={index}
       onClick={onReleaseClick}
+      bandcamp={release.bandcamp}
     />
   ));
   return (
