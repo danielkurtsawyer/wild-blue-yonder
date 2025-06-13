@@ -1,6 +1,6 @@
 import "./about.css";
 import oakland from "../../assets/images/Photos/oakland.jpg";
-import thunderbirdOverhead from "../../assets/images/Photos/thunderbird overhead.jpg";
+import haven from "../../assets/images/Photos/haven.jpg";
 import thunderbirdFloor from "../../assets/images/Photos/thunderbird floor.jpg";
 import LinkPrimary from "../../components/Link/LinkPrimary";
 import LinkTertiary from "../../components/Link/LinkTertiary.jsx";
@@ -49,7 +49,7 @@ function About() {
             <h2>Book Us</h2>
             <img
               className="shadow-elevation-medium"
-              src={thunderbirdOverhead}
+              src={haven}
               alt="ThunderBirdOverhead"
             />
             <p className="booking-text">
