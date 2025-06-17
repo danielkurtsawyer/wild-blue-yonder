@@ -3,6 +3,7 @@ import oakland from "../../assets/images/Photos/oakland.jpg";
 import haven from "../../assets/images/Photos/haven.jpg";
 import thunderbirdFloor from "../../assets/images/Photos/thunderbird floor.jpg";
 import LinkPrimary from "../../components/Link/LinkPrimary";
+import LinkSecondary from "../../components/Link/LinkSecondary.jsx";
 import LinkTertiary from "../../components/Link/LinkTertiary.jsx";
 import press from "./press.js";
 
@@ -62,6 +63,13 @@ function About() {
                 // className="shadow-gradient-bottom-elevation-medium"
               />
             </p>
+            <p className="booking-text">All other inquiries can be sent to:</p>
+            <LinkSecondary
+              href="mailto:management@wildblueyondermusic.com"
+              text="management@wildblueyondermusic.com"
+              className="large-text"
+              // className="shadow-gradient-bottom-elevation-medium"
+            />
           </div>
           <div className="pic-and-paragraph">
             <h2>WBY: In the Press</h2>
