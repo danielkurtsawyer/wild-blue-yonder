@@ -65,7 +65,7 @@ function SocialMediaLinks() {
         href="https://wildblueyonder.bandcamp.com"
         target="_blank"
         rel="noopener noreferrer"
-        index="4"
+        index="2"
         onMouseEnter={() => handleHover(2)}
         onMouseLeave={() => handleLeave()}
       >
@@ -75,7 +75,7 @@ function SocialMediaLinks() {
         href="https://instagram.com/wildblueyonderjams"
         target="_blank"
         rel="noopener noreferrer"
-        index="2"
+        index="3"
         onMouseEnter={() => handleHover(3)}
         onMouseLeave={() => handleLeave()}
       >
@@ -85,7 +85,7 @@ function SocialMediaLinks() {
         href="https://www.youtube.com/@wildblueyonder3557"
         target="_blank"
         rel="noopener noreferrer"
-        index="3"
+        index="4"
         onMouseEnter={() => handleHover(4)}
         onMouseLeave={() => handleLeave()}
       >
