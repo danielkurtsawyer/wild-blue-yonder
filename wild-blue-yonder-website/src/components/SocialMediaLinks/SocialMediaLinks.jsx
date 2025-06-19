@@ -4,6 +4,7 @@ import instagramLogo from "../../assets/icons/logo-instagram.svg";
 import youtubeLogo from "../../assets/icons/logo-youtube.svg";
 import facebookLogo from "../../assets/icons/logo-facebook.svg";
 import tiktokLogo from "../../assets/icons/logo-tiktok.svg";
+import bandcampLogo from "../../assets/icons/bandcamp-button-circle-line-black-512.png";
 
 import "./social-media-links.css";
 
@@ -61,11 +62,21 @@ function SocialMediaLinks() {
         <img src={appleMusicLogo} alt="Apple Music" />
       </a>
       <a
+        href="https://wildblueyonder.bandcamp.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        index="4"
+        onMouseEnter={() => handleHover(2)}
+        onMouseLeave={() => handleLeave()}
+      >
+        <img src={bandcampLogo} alt="Bandcamp" />
+      </a>
+      <a
         href="https://instagram.com/wildblueyonderjams"
         target="_blank"
         rel="noopener noreferrer"
         index="2"
-        onMouseEnter={() => handleHover(2)}
+        onMouseEnter={() => handleHover(3)}
         onMouseLeave={() => handleLeave()}
       >
         <img src={instagramLogo} alt="Instagram" />
@@ -75,20 +86,10 @@ function SocialMediaLinks() {
         target="_blank"
         rel="noopener noreferrer"
         index="3"
-        onMouseEnter={() => handleHover(3)}
-        onMouseLeave={() => handleLeave()}
-      >
-        <img src={youtubeLogo} alt="Youtube" />
-      </a>
-      <a
-        href="https://tiktok.com/@wildblueyonderjams"
-        target="_blank"
-        rel="noopener noreferrer"
-        index="4"
         onMouseEnter={() => handleHover(4)}
         onMouseLeave={() => handleLeave()}
       >
-        <img src={tiktokLogo} alt="TikTok" />
+        <img src={youtubeLogo} alt="Youtube" />
       </a>
       <a
         href="https://www.facebook.com/WildBlueYonderJams/"
