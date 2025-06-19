@@ -11,6 +11,11 @@ const shows = [
     name: "Grandview Park",
     location: "Pittsburgh, PA",
   },
+  {
+    date: "June 14, 2025",
+    name: "The Parking Pad",
+    location: "Dormont, PA",
+  },
 ];
 
 export default shows;
