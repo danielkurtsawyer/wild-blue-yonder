@@ -8,7 +8,7 @@ import "./home.css";
 function Home() {
   return (
     <>
-      <title>Wild Blue Yonder</title>
+      <title>Wild Blue Yonder | Pittsburgh Jam Band</title>
       <meta
         name="description"
         content="Wild Blue Yonder is a Pittsburgh-based jam band delivering passionate live performances driven by improvisational groove-infused music."
