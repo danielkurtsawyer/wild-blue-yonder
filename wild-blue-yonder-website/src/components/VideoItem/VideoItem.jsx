@@ -9,6 +9,7 @@ export default function VideoItem({ title, link }) {
         className="youtube-container shadow-elevation-medium"
         src={link}
         allow="fullscreen"
+        loading="lazy"
       ></iframe>
     </div>
   );
