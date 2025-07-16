@@ -21,6 +21,7 @@ header {
 
 .logo {
   height: 85px;
+  width: auto;
 }
 
 .band-name {

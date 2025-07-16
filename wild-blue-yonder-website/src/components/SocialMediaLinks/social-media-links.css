@@ -8,6 +8,7 @@
 .social-media-links-wrapper a,
 .social-media-links-wrapper img {
   height: 24px;
+  width: auto;
 }
 .social-media-links-wrapper img {
   filter: invert(100%) sepia(46%) saturate(501%) hue-rotate(295deg)
