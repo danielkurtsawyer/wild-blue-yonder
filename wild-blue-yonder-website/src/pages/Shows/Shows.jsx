@@ -1,5 +1,5 @@
 import UpcomingShows from "../../components/UpcomingShows/UpcomingShows";
-import pokerGraphic from "../../assets/images/Graphics/poker.svg";
+import pokerGraphic from "../../assets/images/Graphics/poker.png";
 import "./shows.css";
 
 function Shows() {

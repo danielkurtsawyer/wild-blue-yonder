@@ -1,6 +1,6 @@
 import NavMenu from "../Nav Menu/NavMenu.jsx";
 import SocialMediaLinks from "../SocialMediaLinks/SocialMediaLinks.jsx";
-import pokerGraphic from "../../assets/images/Graphics/poker.svg";
+import pokerGraphic from "../../assets/images/Graphics/poker.png";
 import logo from "../../assets/images/Graphics/logo.png";
 import closeIcon from "../../assets/icons/close.svg";
 
