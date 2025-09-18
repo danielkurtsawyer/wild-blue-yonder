@@ -19,7 +19,12 @@ export default function FeaturedRelease({
   return (
     <div className="release-container">
       <div className="release-art">
-        <img src={src} alt={alt} className="shadow-elevation-medium" />
+        <img
+          src={src}
+          alt={alt}
+          className="shadow-elevation-medium"
+          fetchPriority="high"
+        />
       </div>
       <div className="release-info">
         <h1>{heading}</h1>
