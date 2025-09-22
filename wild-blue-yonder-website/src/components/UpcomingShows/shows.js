@@ -1,9 +1,11 @@
 const shows = [
   {
-    date: "September 20, 2025",
-    title: "Pistons in the Park",
-    name: "Allegheny Commons Park West",
+    date: "September 25, 2025",
+    title: "Supporting the Magic Beans",
+    name: "Thunderbird Music Hall",
     location: "Pittsburgh, PA",
+    ticketLink:
+      "https://thunderbirdmusichall.com/event/the-magic-beans/thunderbird-cafe-music-hall/pittsburgh-pennsylvania/",
   },
   {
     date: "September 27, 2025",
