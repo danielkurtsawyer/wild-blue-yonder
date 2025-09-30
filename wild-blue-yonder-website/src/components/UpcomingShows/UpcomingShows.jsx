@@ -3,10 +3,23 @@ import ShowItem from "../ShowItem/ShowItem.jsx";
 import shows from "./shows.js";
 
 export default function UpcomingShows() {
+  const currentDate = new Date();
+  const normalizedDate = new Date(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+  console.log(normalizedDate);
+
+  let upcomingShows = shows.filter(
+    (show) => new Date(show.date) >= normalizedDate
+  );
+
+  upcomingShows.sort((a, b) => new Date(a.date) - new Date(b.date));
   return (
     <div className="shows-container">
       <h2 className="upcoming-shows-header">Upcoming Shows</h2>
-      {shows.map((show, index) => {
+      {upcomingShows.map((show, index) => {
         return (
           <ShowItem
             key={index}

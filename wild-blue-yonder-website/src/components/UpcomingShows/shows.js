@@ -12,6 +12,11 @@ const shows = [
     name: "Bellevue Music Festival",
     location: "Bellevue, PA",
   },
+  {
+    date: "June 14, 2025",
+    name: "The Parking Pad",
+    location: "Dormont, PA",
+  },
 ];
 
 export default shows;
