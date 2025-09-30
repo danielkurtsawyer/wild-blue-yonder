@@ -10,3 +10,7 @@
   justify-content: center;
   width: 100%;
 }
+
+.shows-container p {
+  font-family: "body-text";
+}

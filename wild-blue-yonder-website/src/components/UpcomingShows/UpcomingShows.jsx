@@ -19,19 +19,25 @@ export default function UpcomingShows() {
   return (
     <div className="shows-container">
       <h2 className="upcoming-shows-header">Upcoming Shows</h2>
-      {upcomingShows.map((show, index) => {
-        return (
-          <ShowItem
-            key={index}
-            showDate={show.date}
-            venueName={show.name}
-            venueLocation={show.location}
-            borderTop={index === 0 ? "2px solid black" : ""}
-            showTitle={show.title ? show.title : null}
-            ticketLink={show.ticketLink}
-          />
-        );
-      })}
+      {upcomingShows.length === 0 ? (
+        <p className="large-text">
+          Stay tuned for upcoming show announcements!
+        </p>
+      ) : (
+        upcomingShows.map((show, index) => {
+          return (
+            <ShowItem
+              key={index}
+              showDate={show.date}
+              venueName={show.name}
+              venueLocation={show.location}
+              borderTop={index === 0 ? "2px solid black" : ""}
+              showTitle={show.title ? show.title : null}
+              ticketLink={show.ticketLink}
+            />
+          );
+        })
+      )}
       {/* <ShowItem
         showDate="August 16, 2025"
         venueName="Yonder Fest"
