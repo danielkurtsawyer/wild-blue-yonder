@@ -17,6 +17,14 @@ const shows = [
     name: "The Parking Pad",
     location: "Dormont, PA",
   },
+  {
+    date: "October 31, 2025",
+    title: "HAVENWEEN",
+    name: "HAVEN",
+    location: "Pittsburgh, PA",
+    ticketLink:
+      "https://indietix.org/events/postgenre/10312025",
+  },
 ];
 
 export default shows;
