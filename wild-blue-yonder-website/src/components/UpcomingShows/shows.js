@@ -22,8 +22,15 @@ const shows = [
     title: "HAVENWEEN",
     name: "HAVEN",
     location: "Pittsburgh, PA",
+    ticketLink: "https://indietix.org/events/postgenre/10312025",
+  },
+  {
+    date: "March 7, 2026",
+    title: "The Brrrahctopus Tour",
+    name: "Thunderbird Music Hall",
+    location: "Pittsburgh, PA",
     ticketLink:
-      "https://indietix.org/events/postgenre/10312025",
+      "https://thunderbirdmusichall.com/event/brahctopus-the-brrrrrrctopus-tour/thunderbird-cafe-music-hall/pittsburgh-pennsylvania/",
   },
 ];
 
