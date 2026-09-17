@@ -25,10 +25,10 @@ function About() {
               alt="Oakland"
             />
             <p className="band-members">
-              <b>Frank Mileto</b> (Aux Percussion), <b>Mark Riggio</b> (Drums),{" "}
-              <b>Dan Sawyer</b> (Bass/Guitar/Vocals), <b>Jason Kuehnle</b>{" "}
-              (Keys), <b>Eli Alfieri</b> (Guitar/Bass/Vocals), and{" "}
-              <b>Lucas Sherman</b> (Saxophone)
+              <b>Michael Garbett</b> (Aux Percussion), <b>Dan Sawyer</b>{" "}
+              (Bass/Guitar/Vocals), <b>Jason Kuehnle</b> (Keys),{" "}
+              <b>Eli Alfieri</b> (Guitar/Bass/Vocals), and <b>Lucas Sherman</b>{" "}
+              (Saxophone)
             </p>
           </div>
           <div className="pic-and-paragraph">
